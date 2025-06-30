@@ -16,16 +16,16 @@ Project Structure (Conceptual)
 To support individual test classes, you might organize your project like this:
 
 YourProjectName/
-├── Models/                     // Optional: For strongly-typed request/response models
+├── Models/                    
 │   ├── LoginRequest.cs
 │   ├── OrderResponse.cs
 │   └── ...
 ├── ApiClient/
-│   └── ApiClient.cs            // The centralized API client
+│   └── ApiClient.cs           
 ├── Tests/
-│   ├── BaseApiTest.cs          // Base class for common setup/teardown
-│   ├── EnergyTests.cs          // Tests for /ENSEK/energy
-│   ├── OrderTests.cs           // Tests for /ENSEK/orders
-│   ├── AuthTests.cs            // Tests for /ENSEK/login, /ENSEK/reset
-│   └── FuelTests.cs            // Tests for /ENSEK/buy
-└── appsettings.json            // Optional: For configuration
+│   ├── BaseApiTest.cs          
+│   ├── EnergyTests.cs         
+│   ├── OrderTests.cs          
+│   ├── AuthTests.cs            
+│   └── FuelTests.cs           
+└── appsettings.json            
